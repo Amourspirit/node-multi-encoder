@@ -61,9 +61,9 @@ uriEnc = codeString(uriStr, eKind.uriComponent, eProcess.encode);
 str = codeString(uriEnc, eKind.uriComponent, eProcess.decode);
 
 // also encode / decode JavaScript or TypeScript for safe JavaScript or TypeScript string
-str = codeString('some JavaScript code, eKind.jsString, eProcess.encode);
-str = codeString('some encoded JavaScript code, eKind.jsString, eProcess.decode);
+str = codeString('some JavaScript code', eKind.jsString, eProcess.encode);
+str = codeString('some encoded JavaScript code', eKind.jsString, eProcess.decode);
 
-str = codeString('some TypeScript code, eKind.tsString, eProcess.encode);
-str = codeString('some encoded TypeScript code, eKind.tsString, eProcess.decode);
+str = codeString('some TypeScript code', eKind.tsString, eProcess.encode);
+str = codeString('some encoded TypeScript code', eKind.tsString, eProcess.decode);
 ```
