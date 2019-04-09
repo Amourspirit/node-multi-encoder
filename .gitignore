@@ -1,9 +1,11 @@
 .DS_Store
+.nyc_output
 *~
 *.iws
 *.sublime-workspace
 .cache
 /lib
+/coverage
 /scratch
 node_modules
 /*.log

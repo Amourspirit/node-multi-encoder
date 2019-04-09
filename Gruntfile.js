@@ -148,15 +148,15 @@ module.exports = function (grunt) {
     'build'
   ]);
   grunt.registerTask('build_build', [
+    'bumpBuild',
     'build_git'
   ]);
-  grunt.registerTask('build_patch', [
-    'build_git',
-  ]);
-   grunt.registerTask('build_minor', [
+  grunt.registerTask('build_minor', [
+    'bumpMinor',
     'build_git',
   ]);
   grunt.registerTask('build_major', [
+    'bumpMajor',
     'build_git',
   ]);
   grunt.registerTask('build_git', [
