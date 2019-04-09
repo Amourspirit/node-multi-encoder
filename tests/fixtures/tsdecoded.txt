@@ -1,0 +1,5 @@
+const hello = (strName: string) => {
+  return `hello 'private:' ${strName}`;
+}
+
+const str1 = `const hello = (strName: string) => {\n  return \`hello \${strName}\`;\n}\n`
