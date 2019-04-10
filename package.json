@@ -1,6 +1,6 @@
 {
   "name": "multi-encoder",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Encodes decode different types of string such as base64, javascript etc",
   "homepage": "https://github.com/Amourspirit/node-multi-encoder",
   "repository": {
